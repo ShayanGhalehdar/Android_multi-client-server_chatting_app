@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Login_UserName"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="@string/Login_username"
+        android:inputType="textPersonName"
+        android:textColorHint="#78909C"
+        app:layout_constraintBottom_toTopOf="@+id/Login_Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Login_Password"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="@string/Login_password"
+        android:inputType="textPassword"
+        android:textColorHint="#78909C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Login_EnterButton"
+        android:layout_width="183dp"
+        android:layout_height="61dp"
+        android:onClick="signInHandler"
+        android:text="@string/Login_enterB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Login_Password" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

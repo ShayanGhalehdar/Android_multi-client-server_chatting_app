@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyChatApp</string>
+    <string name="Login_username">Username</string>
+    <string name="Login_password">Password</string>
+    <string name="Login_enterB">Enter</string>
+    <string name="Connect_IP">Host IP</string>
+    <string name="Connect_connectB">Connect</string>
+    <string name="main_connectUsername">Talk to…</string>
+    <string name="main_talkB">Talk</string>
+</resources>
