@@ -47,7 +47,3 @@ java -cp ../out Main   # adjust to the actual main class
 ```
 
 **Client:** open `MyChatApp/` in Android Studio, set the server's host/port in the client's connection config, and run on an emulator or device.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
